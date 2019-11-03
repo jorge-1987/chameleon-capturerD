@@ -1,0 +1,168 @@
+object FrmAbout: TFrmAbout
+  Left = 267
+  Top = 132
+  BorderStyle = bsDialog
+  Caption = 'About Chameleon Capturer'
+  ClientHeight = 320
+  ClientWidth = 376
+  Color = 16776176
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 376
+    Height = 320
+    Align = alClient
+    Color = 16776176
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Top = 8
+      Width = 122
+      Height = 13
+      Caption = 'Version                            :'
+    end
+    object Label4: TLabel
+      Left = 136
+      Top = 8
+      Width = 24
+      Height = 13
+      Caption = '0.9.1'
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 32
+      Width = 122
+      Height = 13
+      Caption = 'Fecha ultima compilacion:'
+    end
+    object Label5: TLabel
+      Left = 136
+      Top = 32
+      Width = 129
+      Height = 13
+      Caption = '01/09/2009  DD/MM/AAA'
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 68
+      Width = 122
+      Height = 13
+      Caption = 'Fue testeado en              :'
+    end
+    object Label12: TLabel
+      Left = 136
+      Top = 68
+      Width = 109
+      Height = 13
+      Caption = 'Microsoft Windows ME'
+    end
+    object Label6: TLabel
+      Left = 136
+      Top = 84
+      Width = 117
+      Height = 13
+      Caption = 'Microsoft Windows 2000'
+    end
+    object Label8: TLabel
+      Left = 136
+      Top = 100
+      Width = 130
+      Height = 13
+      Caption = 'Microsoft Windows XP SP2'
+    end
+    object Label7: TLabel
+      Left = 136
+      Top = 116
+      Width = 117
+      Height = 13
+      Caption = 'Microsoft Windows 2003'
+    end
+    object Label13: TLabel
+      Left = 136
+      Top = 148
+      Width = 95
+      Height = 13
+      Caption = 'GNU/Linux + WINE'
+    end
+    object Label11: TLabel
+      Left = 88
+      Top = 192
+      Width = 207
+      Height = 13
+      Caption = 'https://sourceforge.net/projects/ccapturer/'
+    end
+    object Label14: TLabel
+      Left = 136
+      Top = 131
+      Width = 116
+      Height = 13
+      Caption = 'Microsoft Windows Vista'
+    end
+    object MmLicencia: TMemo
+      Left = 8
+      Top = 224
+      Width = 361
+      Height = 89
+      Lines.Strings = (
+        'Copyright (c) 2006 - 2009,  Jorge Abreu'
+        'All rights reserved.'
+        ''
+        
+          'Redistribution and use in source and binary forms, with or witho' +
+          'ut '
+        
+          'modification, are permitted provided that the following conditio' +
+          'ns are '
+        'met:'
+        
+          'Redistributions of source code must retain the above copyright n' +
+          'otice, '
+        'this list of conditions and the following disclaimer.'
+        
+          'Redistributions in binary form must reproduce the above copyrigh' +
+          't '
+        
+          'notice, this list of conditions and the following disclaimer in ' +
+          'the '
+        
+          'documentation and/or other materials provided with the distribut' +
+          'ion.'
+        
+          'Neither the name of the Chameleon Capturer Project nor the names' +
+          ' of '
+        
+          'its contributors may be used to endorse or promote products deri' +
+          'ved '
+        'from this software without specific prior written permission.'
+        ''
+        'THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS '
+        'AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED '
+        'WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED '
+        'WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A '
+        'PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL '
+        'THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR '
+        'ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR '
+        'CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, '
+        'PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS '
+        'OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) '
+        'HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, '
+        'WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT '
+        '(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY '
+        'OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE '
+        'POSSIBILITY OF SUCH DAMAGE.'
+        ''
+        'https://sourceforge.net/projects/ccapturer/')
+      ScrollBars = ssVertical
+      TabOrder = 0
+    end
+  end
+end

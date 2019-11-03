@@ -1,0 +1,43 @@
+unit USector;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ComCtrls, StdCtrls;
+
+type
+  TFrmSector = class(TForm)
+    Label1: TLabel;
+    TB: TTrackBar;
+    procedure TBChange(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmSector: TFrmSector;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmSector.TBChange(Sender: TObject);
+begin
+  If Tb.Position = 255 Then FrmSector.AlphaBlend := False
+    Else
+      Begin
+        FrmSector.AlphaBlend := True;
+        FrmSector.AlphaBlendValue := Tb.Position;
+      End;
+end;
+
+procedure TFrmSector.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  FrmSector.AlphaBlend := False;
+end;
+
+end.
